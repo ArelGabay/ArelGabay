@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://u8views.com/github/ArelGabay">
-    <img src="https://u8views.com/api/v1/github/profiles/ArelGabay/views/day-week-month-total-count.svg" alt="u8views - Profile View Counter"/>
+    <img src="https://u8views.com/api/v1/github/profiles/59569636/views/day-week-month-total-count.svg">
   </a>
 </p>
 
