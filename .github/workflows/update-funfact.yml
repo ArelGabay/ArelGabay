@@ -57,11 +57,16 @@ jobs:
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'actions@github.com'
-
+      
+          # Rebase to incorporate any remote changes
           git pull origin main --rebase
+          
+          # Stage the README file and check if there are changes
           git add README.md
           git diff --cached --quiet && echo "No changes to commit" && exit 0
+          
           git commit -m "🔄 Updated fun fact"
-          git push origin main
+          # Use force-with-lease to ensure safety when pushing
+          git push --force-with-lease origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
