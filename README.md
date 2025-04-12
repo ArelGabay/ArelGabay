@@ -2,8 +2,8 @@
 <h3 align="center">💻 Full Stack & Software Developer | Computer Science Student</h3>
 
 <p align="center">
-  <a href="https://hits.seeyoufarm.com">
-    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FArelGabay&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Profile+Views&edge_flat=false" alt="Hits">
+  <a href="https://u8views.com/github/ArelGabay">
+    <img src="https://u8views.com/api/v1/github/profiles/ArelGabay/views/day-week-month-total-count.svg" alt="u8views - Profile View Counter"/>
   </a>
 </p>
 
