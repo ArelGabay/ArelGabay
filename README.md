@@ -68,9 +68,17 @@
 
 ## 📈 GitHub Stats
 
-<div align="center">
-  <img width="30%" src="https://github-readme-stats.vercel.app/api?username=ArelGabay&theme=default&hide_border=false&include_all_commits=true&count_private=true" />
-  <img width="30%" src="https://nirzak-streak-stats.vercel.app/?user=ArelGabay&theme=default&hide_border=false" />
-  <img width="30%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArelGabay&theme=default&hide_border=false&layout=compact&langs_count=8" />
-</div>
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=ArelGabay&theme=default&hide_border=false&include_all_commits=true&count_private=true" alt="Arel Gabay's GitHub Stats" />
+    </td>
+    <td>
+      <img src="https://nirzak-streak-stats.vercel.app/?user=ArelGabay&theme=default&hide_border=false" alt="Arel Gabay's GitHub Streak" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArelGabay&theme=default&hide_border=false&layout=compact&langs_count=8" alt="Top Languages" />
+    </td>
+  </tr>
+</table>
 
