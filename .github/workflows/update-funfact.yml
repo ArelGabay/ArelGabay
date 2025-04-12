@@ -53,24 +53,24 @@ jobs:
               file.write(new_content)
         shell: python
 
-      - name: Commit and push changes using rebase with retry
+      - name: Commit and push changes after hard reset
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'actions@github.com'
         
-          # Pull the latest changes using rebase
-          git pull origin main --rebase
+          # Ensure your branch exactly matches the remote
+          git fetch origin main
+          git reset --hard origin/main
       
-          # Stage the changes
+          # Stage and commit changes if any
           git add README.md
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
-      
-          # Commit your update
           git commit -m "🔄 Updated fun fact"
       
+          # Attempt push using force-with-lease, optionally in a loop if needed
           max_attempts=5
           attempt=1
           until git push --force-with-lease origin main; do
@@ -80,8 +80,10 @@ jobs:
             fi
             echo "Push attempt $attempt failed. Retrying in 10 seconds..."
             sleep 10
-            # Rebase to try and catch any new remote changes before retrying
-            git pull origin main --rebase || true
+            git fetch origin main
+            git reset --hard origin/main
+            # Reapply your commit if needed
+            git cherry-pick HEAD@{1} || true
             attempt=$((attempt+1))
           done
         env:
