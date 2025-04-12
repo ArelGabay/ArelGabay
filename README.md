@@ -17,7 +17,7 @@
 - 💡 Enjoys diving into **algorithms**, **databases**, and **modern web tech**.
 - 💬 Ask me about anything related to **Python, JavaScript, Node.js, or React**.
 - 📫 Reach me at **arelgabay1@gmail.com**
-- ⚡ Fun fact: **Sharks are older than trees.**
+- ⚡ Fun fact: **The Eiffel Tower can grow over 6 inches in summer.**
 
 ---
 
