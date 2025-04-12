@@ -2,7 +2,7 @@
 <h3 align="center">💻 Full Stack & Software Developer | Computer Science Student</h3>
 
 <p align="center">
-  <img src="https://visitcount.itsvg.in/api?id=arelgabay&label=Profile%20Views&color=12&icon=5&pretty=true" alt="Profile View Counter"/>
+  <img src="https://visitcount.itsvg.in/api?id=arelgabay&label=Profile%20Views&color=6&icon=2&pretty=true" alt="View Count" />
 </p>
 
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" />
