@@ -7,7 +7,7 @@
   </a>
 </p>
 
-<img align="right" src="https://your-image-url.gif" width="400" alt="Your Alt Text" />
+<img align="right" src="Animation.gif" width="400" alt="Your Alt Text" />
 
 ### 🚀 About Me
 
