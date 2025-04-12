@@ -68,12 +68,9 @@
 
 ## 📈 GitHub Stats
 
-
-## 📈 GitHub Stats
-
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ArelGabay&theme=default&hide_border=false&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://nirzak-streak-stats.vercel.app/?user=ArelGabay&theme=default&hide_border=false" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArelGabay&theme=default&hide_border=false&layout=compact&langs_count=8" />
+  <img width="30%" src="https://github-readme-stats.vercel.app/api?username=ArelGabay&theme=default&hide_border=false&include_all_commits=true&count_private=true" />
+  <img width="30%" src="https://nirzak-streak-stats.vercel.app/?user=ArelGabay&theme=default&hide_border=false" />
+  <img width="30%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArelGabay&theme=default&hide_border=false&layout=compact&langs_count=8" />
 </div>
 
