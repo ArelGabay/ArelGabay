@@ -53,17 +53,15 @@ jobs:
               file.write(new_content)
         shell: python
 
-      - name: Commit and push changes
+      - name: Commit and push changes using merge
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'actions@github.com'
       
-          # Ensure we fetch the latest state
+          # Fetch and merge remote changes
           git fetch origin main
-          # Force reset to ensure we’re completely aligned
-          git reset --hard origin/main
+          git merge origin/main --no-edit
       
-          # Stage our changes and check for differences
           git add README.md
           if ! git diff --cached --quiet; then
             git commit -m "🔄 Updated fun fact"
@@ -72,7 +70,6 @@ jobs:
             exit 0
           fi
       
-          # Push using force-with-lease to avoid overwriting unexpected remote changes
-          git push --force-with-lease origin main
+          git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
