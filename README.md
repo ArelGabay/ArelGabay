@@ -2,7 +2,9 @@
 <h3 align="center">💻 Full Stack & Software Developer | Computer Science Student</h3>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=ArelGabay&label=Profile%20Views&color=ff69b4&style=plastic" alt="Profile Views"/>
+  <a href="https://hits.seeyoufarm.com">
+    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FArelGabay&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Profile+Views&edge_flat=false" alt="Hits">
+  </a>
 </p>
 
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" />
