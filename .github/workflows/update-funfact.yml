@@ -58,15 +58,21 @@ jobs:
           git config --global user.name 'github-actions'
           git config --global user.email 'actions@github.com'
       
-          # Rebase to incorporate any remote changes
-          git pull origin main --rebase
-          
-          # Stage the README file and check if there are changes
+          # Ensure we fetch the latest state
+          git fetch origin main
+          # Force reset to ensure we’re completely aligned
+          git reset --hard origin/main
+      
+          # Stage our changes and check for differences
           git add README.md
-          git diff --cached --quiet && echo "No changes to commit" && exit 0
-          
-          git commit -m "🔄 Updated fun fact"
-          # Use force-with-lease to ensure safety when pushing
+          if ! git diff --cached --quiet; then
+            git commit -m "🔄 Updated fun fact"
+          else
+            echo "No changes to commit"
+            exit 0
+          fi
+      
+          # Push using force-with-lease to avoid overwriting unexpected remote changes
           git push --force-with-lease origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
