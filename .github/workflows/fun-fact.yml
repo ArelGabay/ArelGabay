@@ -1,23 +1,23 @@
-name: 🤖 Fun Fact PR Bot
+name: 🤖 Auto-Update README with Local Fun Fact
 
 on:
   schedule:
     - cron: "*/15 * * * *"
   workflow_dispatch:
-  pull_request:
 
 permissions:
-  contents: write
-  pull-requests: write
+  contents: write  # allows committing to the repo
 
 jobs:
-  update-fun-fact:
-    name: generate-fact
+  update-readme:
     runs-on: ubuntu-latest
 
     steps:
       - name: 📥 Checkout repo
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: 🐍 Set up Python
         uses: actions/setup-python@v4
@@ -53,23 +53,16 @@ jobs:
 
           with open("README.md", "w") as file:
               file.write(new_content)
+
+          with open("fact-status.txt", "w") as file:
+              file.write(chosen)
         shell: python
 
-      - name: 🚀 Create Pull Request
-        id: cpr
-        uses: peter-evans/create-pull-request@v5
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "🔄 Update fun fact"
-          branch: update-fun-fact
-          title: "🔄 New Fun Fact"
-          body: This PR updates the README with a new local fun fact!
-          delete-branch: true
-
-      - name: ✅ Enable auto-merge
-        if: steps.cpr.outputs.pull-request-number != ''
-        uses: peter-evans/enable-pull-request-automerge@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
-          merge-method: squash
+      - name: ✅ Commit & push to main
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "🔄 Updated fun fact"
+          git push origin main
