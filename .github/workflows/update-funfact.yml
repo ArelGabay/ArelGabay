@@ -54,8 +54,14 @@ jobs:
           git config --global user.email 'actions@github.com'
           git add README.md
           git commit -m "🔄 Updated fun fact" || echo "No changes to commit"
+      
+          # Use token-based authentication for pull too
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git pull --rebase
-          git push
+          
+          # Pull changes from remote before pushing
+          git pull origin main --rebase
+      
+          # Now push safely
+          git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
