@@ -17,8 +17,7 @@
 - 💡 Enjoys diving into **algorithms**, **databases**, and **modern web tech**.
 - 💬 Ask me about anything related to **Python, JavaScript, Node.js, or React**.
 - 📫 Reach me at **arelgabay1@gmail.com**
-- ⚡ Fun fact:
-![Fun Fact](https://funfact.onrender.com/fun-fact.png?ts=123456)
+- ⚡ Fun fact: **This will be replaced dynamically**
 
 ---
 
