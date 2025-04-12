@@ -11,6 +11,7 @@ permissions:
 
 jobs:
   update-fun-fact:
+    name: pull_request  # 👈 ADD THIS LINE
     runs-on: ubuntu-latest
 
     steps:
