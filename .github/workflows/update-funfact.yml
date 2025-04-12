@@ -2,7 +2,7 @@ name: 🤖 Update README with Random Fun Fact
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Every 15 minutes
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -13,8 +13,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repository with token access
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -53,14 +56,9 @@ jobs:
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'actions@github.com'
-
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-
-          git pull origin main --rebase
-
+          git pull --rebase origin main || true
           git add README.md
           git diff --cached --quiet && echo "No changes to commit" && exit 0
-
           git commit -m "🔄 Updated fun fact"
           git push origin main
         env:
