@@ -65,12 +65,25 @@
 
 ---
 
-## 📈 GitHub Stats
+---
+
+## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=arelgabay&show_icons=true&theme=github_dark" alt="GitHub Stats" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arelgabay&layout=compact&theme=github_dark" alt="Top Languages" />
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=arelgabay&theme=dark" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ArelGabay&theme=default&hide_border=false&include_all_commits=true&count_private=true" alt="Arel Gabay's GitHub Stats" />
 </p>
+
+<p align="center">
+  <img src="https://nirzak-streak-stats.vercel.app/?user=ArelGabay&theme=default&hide_border=false" alt="Arel Gabay's GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArelGabay&theme=default&hide_border=false&layout=compact&langs_count=8" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <a href="https://visitcount.itsvg.in">
+    <img src="https://visitcount.itsvg.in/api?id=ArelGabay&icon=0&color=0" alt="Profile Views Counter"/>
+  </a>
+</p>
+
