@@ -13,9 +13,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository with token access
+      - name: Checkout with full history and token
         uses: actions/checkout@v3
         with:
+          fetch-depth: 0  # THIS IS THE FIX
           persist-credentials: true
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -56,7 +57,8 @@ jobs:
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'actions@github.com'
-          git pull --rebase origin main || true
+
+          git pull origin main --rebase
           git add README.md
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "🔄 Updated fun fact"
