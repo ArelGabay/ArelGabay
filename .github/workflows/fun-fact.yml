@@ -53,12 +53,13 @@ jobs:
               file.write(new_content)
         shell: python
 
-      - name: 🚀 Create Pull Request
+      - name: 🚀 Create Pull Request (Auto-Merge & Delete Branch)
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "🔄 Update fun fact"
           branch: update-fun-fact
           title: "🔄 New Fun Fact"
-          body: |
-            This PR updates the README with a new local fun fact!
+          body: This PR updates the README with a new local fun fact!
+          delete-branch: true
+          merge: true
