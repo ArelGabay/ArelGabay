@@ -2,7 +2,9 @@
 <h3 align="center">💻 Full Stack & Software Developer | Computer Science Student</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Profile_Views-🔍_ArelGabay-blueviolet?style=for-the-badge" alt="Profile Views Badge"/>
+  <a href="https://u8views.com/github/ArelGabay">
+    <img src="https://u8views.com/api/v1/github/profiles/ArelGabay/views/day-week-month-total-count.svg" alt="u8views - Profile View Counter"/>
+  </a>
 </p>
 
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" />
