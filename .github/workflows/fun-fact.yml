@@ -30,15 +30,45 @@ jobs:
           import re
 
           facts = [
-              "Bananas are berries, but strawberries aren't.",
-              "Octopuses have three hearts.",
-              "Honey never spoils — 3,000-year-old honey was still edible!",
-              "Sharks are older than trees.",
-              "The Eiffel Tower can grow over 6 inches in summer.",
-              "A day on Venus is longer than its year.",
-              "You can't hum while holding your nose closed.",
-              "The fingerprints of a koala are almost identical to humans'."
-          ]
+                # Science & Nature
+                "Bananas are berries, but strawberries aren't.",
+                "Octopuses have three hearts.",
+                "Honey never spoils — 3,000-year-old honey was still edible!",
+                "Sharks are older than trees.",
+                "The Eiffel Tower can grow over 6 inches in summer.",
+                "A day on Venus is longer than its year.",
+                "You can't hum while holding your nose closed.",
+                "The fingerprints of a koala are almost identical to humans'.",
+                "Some turtles can breathe through their butts.",
+                "Sloths can hold their breath longer than dolphins.",
+                "A group of flamingos is called a 'flamboyance'.",
+                "Water can boil and freeze at the same time (called the triple point).",
+                "Wombat poop is cube-shaped.",
+                "There are more stars in the universe than grains of sand on Earth.",
+                "Hot water can freeze faster than cold water — it's called the Mpemba effect.",
+                "The heart of a blue whale is the size of a small car.",
+                "Cows have best friends and get stressed when separated.",
+                "You are taller in the morning than at night (due to spine compression).",
+                "Sea otters hold hands when they sleep so they don’t drift apart.",
+                "A single strand of human hair can support up to 100 grams of weight.",
+            
+                # Computers & Programming
+                "The first computer bug was an actual moth found in a computer in 1947.",
+                "The word 'debugging' was popularized by Admiral Grace Hopper.",
+                "Python is named after Monty Python, not the snake.",
+                "Git was created by Linus Torvalds, the same guy who made Linux.",
+                "Stack Overflow gets over 100 million visits per month from developers.",
+                "There are more lines of code in modern cars than in a space shuttle.",
+                "The first programmer was Ada Lovelace — in the 1800s!",
+                "The original name for Java was Oak.",
+                "The 'Hello World' program was popularized by Brian Kernighan in 1978.",
+                "The average developer spends more time debugging than writing code.",
+                "CTRL+C and CTRL+V were invented at Xerox PARC in the 1970s.",
+                "Modern CPUs can process billions of instructions per second.",
+                "NASA still uses some code written in Fortran from the 1970s.",
+                "The floppy disk icon is still used as the 'Save' button in many apps.",
+                "Programmers use rubber ducks to debug by explaining their code out loud.",
+            ]
 
           chosen = random.choice(facts)
 
