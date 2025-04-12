@@ -20,6 +20,7 @@ jobs:
       - name: Generate Random Fun Fact
         run: |
           import random
+          import re
 
           facts = [
               "Bananas are berries, but strawberries aren't.",
