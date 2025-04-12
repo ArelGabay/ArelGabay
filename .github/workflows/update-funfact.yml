@@ -38,8 +38,7 @@ jobs:
           new_content = re.sub(
               r'- ⚡ Fun fact: \*\*.*?\*\*',
               f'- ⚡ Fun fact: **{chosen}**',
-              content,
-              flags=re.DOTALL
+              content
           )
 
           with open("README.md", "w") as file:
