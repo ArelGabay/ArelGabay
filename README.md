@@ -2,7 +2,7 @@
 <h3 align="center">💻 Full Stack & Software Developer | Computer Science Student</h3>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=arelgabay&label=Profile%20views&color=0e75b6&style=flat" alt="arelgabay" />
+  <img src="https://visitcount.itsvg.in/api?id=arelgabay&label=Profile%20Views&color=12&icon=5&pretty=true" alt="Profile View Counter"/>
 </p>
 
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" />
@@ -14,7 +14,7 @@
 - 🌱 Learning more about **TypeScript**, **React**, and **clean architecture** principles.
 - 💡 Enjoys diving into **algorithms**, **databases**, and **modern web tech**.
 - 💬 Ask me about anything related to **Python, JavaScript, Node.js, or React**.
-- 📫 Reach me at **arelgabay@gmail.com**
+- 📫 Reach me at **arelgabay1@gmail.com**
 - ⚡ Fun fact: **The first actual "computer bug" was a moth stuck in a relay.**
 
 ---
