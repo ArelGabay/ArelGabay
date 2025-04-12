@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Arel Gabay</h1>
+<h1 align="center">Hii 👋, I'm Arel Gabay</h1>
 <h3 align="center">💻 Full Stack & Software Developer | Computer Science Student</h3>
 
 <p align="center">
