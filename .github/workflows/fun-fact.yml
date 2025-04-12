@@ -1,0 +1,56 @@
+name: 🤖 Fun Fact Pull Request
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-fun-fact:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Generate new fun fact
+        run: |
+          import requests
+          import re
+
+          api_key = "${{ secrets.API_NINJAS_API_KEY }}"
+          headers = {'X-Api-Key': api_key}
+          response = requests.get("https://api.api-ninjas.com/v1/facts", headers=headers)
+          fact = response.json()[0]['fact']
+
+          with open("README.md", "r") as f:
+              content = f.read()
+
+          new_content = re.sub(
+              r'- ⚡ Fun fact: \*\*.*?\*\*',
+              f'- ⚡ Fun fact: **{fact}**',
+              content
+          )
+
+          with open("README.md", "w") as f:
+              f.write(new_content)
+        shell: python
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "🔄 Update fun fact"
+          branch: update-fun-fact
+          title: "🔄 Update Fun Fact"
+          body: |
+            This PR updates the README with a new random fun fact 🤓
