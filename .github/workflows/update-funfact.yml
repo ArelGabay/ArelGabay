@@ -53,7 +53,8 @@ jobs:
           git config --global user.name 'github-actions'
           git config --global user.email 'actions@github.com'
           git add README.md
-          git commit -m "🔄 Updated fun fact"
+          git commit -m "🔄 Updated fun fact" || echo "No changes to commit"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
