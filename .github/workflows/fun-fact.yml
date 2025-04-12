@@ -1,4 +1,4 @@
-name: 🤖 Fun Fact Pull Request
+name: 🤖 Local Fun Fact PR Bot
 
 on:
   schedule:
@@ -14,43 +14,51 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: 📥 Checkout repo
         uses: actions/checkout@v3
 
-      - name: Set up Python
+      - name: 🐍 Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      - name: Generate new fun fact
+      - name: 🧠 Generate random local fun fact
         run: |
-          import requests
+          import random
           import re
 
-          api_key = "${{ secrets.API_NINJAS_API_KEY }}"
-          headers = {'X-Api-Key': api_key}
-          response = requests.get("https://api.api-ninjas.com/v1/facts", headers=headers)
-          fact = response.json()[0]['fact']
+          facts = [
+              "Bananas are berries, but strawberries aren't.",
+              "Octopuses have three hearts.",
+              "Honey never spoils — 3,000-year-old honey was still edible!",
+              "Sharks are older than trees.",
+              "The Eiffel Tower can grow over 6 inches in summer.",
+              "A day on Venus is longer than its year.",
+              "You can't hum while holding your nose closed.",
+              "The fingerprints of a koala are almost identical to humans'."
+          ]
 
-          with open("README.md", "r") as f:
-              content = f.read()
+          chosen = random.choice(facts)
+
+          with open("README.md", "r") as file:
+              content = file.read()
 
           new_content = re.sub(
               r'- ⚡ Fun fact: \*\*.*?\*\*',
-              f'- ⚡ Fun fact: **{fact}**',
+              f'- ⚡ Fun fact: **{chosen}**',
               content
           )
 
-          with open("README.md", "w") as f:
-              f.write(new_content)
+          with open("README.md", "w") as file:
+              file.write(new_content)
         shell: python
 
-      - name: Create Pull Request
+      - name: 🚀 Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "🔄 Update fun fact"
           branch: update-fun-fact
-          title: "🔄 Update Fun Fact"
+          title: "🔄 New Fun Fact"
           body: |
-            This PR updates the README with a new random fun fact 🤓
+            This PR updates the README with a new local fun fact!
