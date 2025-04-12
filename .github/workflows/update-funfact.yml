@@ -1,0 +1,56 @@
+name: 🤖 Update README with Random Fun Fact
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'  # Every 15 minutes
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Generate Random Fun Fact
+        run: |
+          import random
+
+          facts = [
+              "Bananas are berries, but strawberries aren't.",
+              "Honey never spoils. Archaeologists found 3,000-year-old honey and it was still good!",
+              "Octopuses have three hearts.",
+              "Sharks are older than trees.",
+              "The Eiffel Tower can grow over 6 inches during summer."
+          ]
+
+          chosen = random.choice(facts)
+          
+          with open("README.md", "r") as file:
+              content = file.read()
+
+          new_content = re.sub(
+              r'- ⚡ Fun fact: \*\*.*?\*\*',
+              f'- ⚡ Fun fact: **{chosen}**',
+              content,
+              flags=re.DOTALL
+          )
+
+          with open("README.md", "w") as file:
+              file.write(new_content)
+        shell: python
+
+      - name: Commit Changes
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'actions@github.com'
+          git add README.md
+          git commit -m "🔄 Updated fun fact"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
