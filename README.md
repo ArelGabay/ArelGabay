@@ -17,7 +17,7 @@
 - 💡 Enjoys diving into **algorithms**, **databases**, and **modern web tech**.
 - 💬 Ask me about anything related to **Python, JavaScript, Node.js, or React**.
 - 📫 Reach me at **arelgabay1@gmail.com**
-- ⚡ Fun fact: **The average developer spends more time debugging than writing code.**
+- ⚡ Fun fact: **Modern CPUs can process billions of instructions per second.**
 
 ---
 
