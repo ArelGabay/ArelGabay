@@ -17,7 +17,7 @@
 - 💡 Enjoys diving into **algorithms**, **databases**, and **modern web tech**.
 - 💬 Ask me about anything related to **Python, JavaScript, Node.js, or React**.
 - 📫 Reach me at **arelgabay1@gmail.com**
-- ⚡ Fun fact: **You're more likely to be bitten by another human in New York than by a shark anywhere in the world.**
+- ⚡ Fun fact: **A bolt of lightning is five times hotter than the surface of the sun.**
 
 ---
 
