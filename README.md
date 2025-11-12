@@ -17,7 +17,7 @@
 - 💡 Enjoys diving into **algorithms**, **databases**, and **modern web tech**.
 - 💬 Ask me about anything related to **Python, JavaScript, Node.js, or React**.
 - 📫 Reach me at **arelgabay1@gmail.com**
-- ⚡ Fun fact: **Every two minutes, we take more pictures than all of humanity did in the entire 19th century.**
+- ⚡ Fun fact: **The internet weighs about the same as a large strawberry.**
 
 ---
 
