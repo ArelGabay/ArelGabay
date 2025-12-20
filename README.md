@@ -17,7 +17,7 @@
 - 💡 Enjoys diving into **algorithms**, **databases**, and **modern web tech**.
 - 💬 Ask me about anything related to **Python, JavaScript, Node.js, or React**.
 - 📫 Reach me at **arelgabay1@gmail.com**
-- ⚡ Fun fact: **Stack Overflow gets over 100 million visits per month from developers.**
+- ⚡ Fun fact: **There are more fake flamingos in the world than real ones.**
 
 ---
 
