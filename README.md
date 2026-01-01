@@ -17,7 +17,7 @@
 - 💡 Enjoys diving into **algorithms**, **databases**, and **modern web tech**.
 - 💬 Ask me about anything related to **Python, JavaScript, Node.js, or React**.
 - 📫 Reach me at **arelgabay1@gmail.com**
-- ⚡ Fun fact: **Every two minutes, we take more pictures than all of humanity did in the entire 19th century.**
+- ⚡ Fun fact: **More people have mobile phones than access to clean toilets.**
 
 ---
 
