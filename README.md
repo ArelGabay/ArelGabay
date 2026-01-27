@@ -17,7 +17,7 @@
 - 💡 Enjoys diving into **algorithms**, **databases**, and **modern web tech**.
 - 💬 Ask me about anything related to **Python, JavaScript, Node.js, or React**.
 - 📫 Reach me at **arelgabay1@gmail.com**
-- ⚡ Fun fact: **The floppy disk icon is still used as the 'Save' button in many apps.**
+- ⚡ Fun fact: **There are more fake flamingos in the world than real ones.**
 
 ---
 
