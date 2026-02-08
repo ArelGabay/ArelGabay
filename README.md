@@ -17,7 +17,7 @@
 - 💡 Enjoys diving into **algorithms**, **databases**, and **modern web tech**.
 - 💬 Ask me about anything related to **Python, JavaScript, Node.js, or React**.
 - 📫 Reach me at **arelgabay1@gmail.com**
-- ⚡ Fun fact: **There are entire planets floating freely in space — not orbiting any star.**
+- ⚡ Fun fact: **The 'Hello World' program was popularized by Brian Kernighan in 1978.**
 
 ---
 
