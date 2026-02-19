@@ -17,7 +17,7 @@
 - 💡 Enjoys diving into **algorithms**, **databases**, and **modern web tech**.
 - 💬 Ask me about anything related to **Python, JavaScript, Node.js, or React**.
 - 📫 Reach me at **arelgabay1@gmail.com**
-- ⚡ Fun fact: **If you drilled a tunnel straight through the Earth and jumped in, you’d come out the other side in about 42 minutes.**
+- ⚡ Fun fact: **There are more lines of code in modern cars than in a space shuttle.**
 
 ---
 
