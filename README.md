@@ -17,7 +17,7 @@
 - 💡 Enjoys diving into **algorithms**, **databases**, and **modern web tech**.
 - 💬 Ask me about anything related to **Python, JavaScript, Node.js, or React**.
 - 📫 Reach me at **arelgabay1@gmail.com**
-- ⚡ Fun fact: **Programmers use rubber ducks to debug by explaining their code out loud.**
+- ⚡ Fun fact: **The 'Hello World' program was popularized by Brian Kernighan in 1978.**
 
 ---
 
