@@ -17,7 +17,7 @@
 - 💡 Enjoys diving into **algorithms**, **databases**, and **modern web tech**.
 - 💬 Ask me about anything related to **Python, JavaScript, Node.js, or React**.
 - 📫 Reach me at **arelgabay1@gmail.com**
-- ⚡ Fun fact: **The original name for Java was Oak.**
+- ⚡ Fun fact: **The first computer bug was an actual moth found in a computer in 1947.**
 
 ---
 
