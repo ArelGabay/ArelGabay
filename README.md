@@ -17,7 +17,7 @@
 - 💡 Enjoys diving into **algorithms**, **databases**, and **modern web tech**.
 - 💬 Ask me about anything related to **Python, JavaScript, Node.js, or React**.
 - 📫 Reach me at **arelgabay1@gmail.com**
-- ⚡ Fun fact: **If you folded a piece of paper 42 times, it would reach the moon.**
+- ⚡ Fun fact: **CTRL+C and CTRL+V were invented at Xerox PARC in the 1970s.**
 
 ---
 
