@@ -17,7 +17,7 @@
 - 💡 Enjoys diving into **algorithms**, **databases**, and **modern web tech**.
 - 💬 Ask me about anything related to **Python, JavaScript, Node.js, or React**.
 - 📫 Reach me at **arelgabay1@gmail.com**
-- ⚡ Fun fact: **If the sun were the size of a white blood cell, the Milky Way would be the size of the United States.**
+- ⚡ Fun fact: **Stack Overflow gets over 100 million visits per month from developers.**
 
 ---
 
