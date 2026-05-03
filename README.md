@@ -17,7 +17,7 @@
 - 💡 Enjoys diving into **algorithms**, **databases**, and **modern web tech**.
 - 💬 Ask me about anything related to **Python, JavaScript, Node.js, or React**.
 - 📫 Reach me at **arelgabay1@gmail.com**
-- ⚡ Fun fact: **A teaspoon of a neutron star would weigh 6 billion tons.**
+- ⚡ Fun fact: **You replace about 98% of your atoms every year.**
 
 ---
 
