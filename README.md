@@ -17,7 +17,7 @@
 - 💡 Enjoys diving into **algorithms**, **databases**, and **modern web tech**.
 - 💬 Ask me about anything related to **Python, JavaScript, Node.js, or React**.
 - 📫 Reach me at **arelgabay1@gmail.com**
-- ⚡ Fun fact: **Git was created by Linus Torvalds, the same guy who made Linux.**
+- ⚡ Fun fact: **Your brain uses about the same amount of power as a 10-watt light bulb.**
 
 ---
 
