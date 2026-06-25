@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Arel Gabay</h1>
 
 <h3 align="center">
-  Full Stack Developer · Computer Science Student · Building production-inspired software
+  Full Stack Developer · Computer Science Graduate · Building production-inspired software
 </h3>
 
 <p align="center">
@@ -28,7 +28,7 @@
 
 ## About Me
 
-I'm a Computer Science student and full stack developer focused on building clean, practical, and production-inspired software.
+I'm a Computer Science graduate and full stack developer focused on building clean, practical, and production-inspired software.
 
 I enjoy working across the stack, from backend APIs and database design to modern frontend interfaces. My current focus is improving my engineering depth through real projects that emphasize architecture, maintainability, and user experience.
 
@@ -137,24 +137,6 @@ Project focus:
 - Database modeling and query design
 - Developer tools and SDKs
 - Testing, CI, and maintainable workflows
-
----
-
-## GitHub Stats
-
-<table align="center" width="100%">
-  <tr>
-    <td align="center" width="33%">
-      <img src="https://github-readme-stats.vercel.app/api?username=ArelGabay&theme=default&hide_border=false&include_all_commits=true&count_private=true" alt="Arel Gabay GitHub Stats" width="100%" />
-    </td>
-    <td align="center" width="33%">
-      <img src="https://nirzak-streak-stats.vercel.app/?user=ArelGabay&theme=default&hide_border=false" alt="Arel Gabay GitHub Streak" width="100%" />
-    </td>
-    <td align="center" width="33%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArelGabay&theme=default&hide_border=false&layout=compact&langs_count=8" alt="Top Languages" width="100%" />
-    </td>
-  </tr>
-</table>
 
 ---
 
